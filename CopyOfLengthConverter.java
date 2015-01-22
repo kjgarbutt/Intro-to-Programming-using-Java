@@ -1,12 +1,19 @@
 /**
-* This program will convert measurements expressed in inches,
-* feet, yards, or miles into each of the possible units of
-* measure. The measurement is input by the user, followed by
-* the unit of measure. For example: "17 feet", "1 inch", or
-* "2.73 mi". Abbreviations in, ft, yd, and mi are accepted.
-* The program will continue to read and convert measurements
-* until the user enters an input of 0.
-*/
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ * 
+ * This program will convert measurements expressed in inches,
+ * feet, yards, or miles into each of the possible units of
+ * measure. The measurement is input by the user, followed by
+ * the unit of measure. For example: "17 feet", "1 inch", or
+ * "2.73 mi". Abbreviations in, ft, yd, and mi are accepted.
+ * The program will continue to read and convert measurements
+ * until the user enters an input of 0.
+ */
+
 public class CopyOfLengthConverter {
 	public static void main(String[] args) {
 		int optionNumber;               // Option number from menu, selected by user.

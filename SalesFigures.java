@@ -1,10 +1,16 @@
 /**
-* This program reads from a file named "sales.dat" (must be in same folder as program).
-* Each line of the file contains the name of a city, followed by a colon, followed by
-* either a number giving the amount of sales in that city or by a message saying why
-* the sales figure is not available.  The program prints the total sales for all
-* cities and the number of cites for which the figure was not available.
-*/
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ *
+ * This program reads from a file named "sales.dat" (must be in same folder as program).
+ * Each line of the file contains the name of a city, followed by a colon, followed by
+ * either a number giving the amount of sales in that city or by a message saying why
+ * the sales figure is not available.  The program prints the total sales for all
+ * cities and the number of cites for which the figure was not available.
+ */
  
 public class SalesFigures {
  

@@ -1,9 +1,16 @@
 /**
-      * Computes and display several statistics for a set of non-zero
-      * numbers entered by the user.  (Input ends when user enters 0.)
-      * This program uses StatCalc.java.
-      */
-   /*
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ *
+ * Computes and display several statistics for a set of non-zero
+ * numbers entered by the user.  (Input ends when user enters 0.)
+ * This program uses StatCalc.java.
+ */
+   
+	/*
     * A text scanner which can parse primitive types and strings using regular expressions. 
     * Breaks its input into tokens using a delimiter pattern, which by default matches
     * whitespace. Resulting tokens may then be converted into values of different types using

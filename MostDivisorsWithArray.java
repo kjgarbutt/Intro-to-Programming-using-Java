@@ -1,9 +1,15 @@
 /**
-* This program counts the number of divisors for integers in the range
-* 1 to 10000.  It finds the maximum divisor count.  It outputs the
-* maximum divisor count and a list of all integers in the range that
-* have the maximum number of divisors.
-*/
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ * 
+ * This program counts the number of divisors for integers in the range
+ * 1 to 10000.  It finds the maximum divisor count.  It outputs the
+ * maximum divisor count and a list of all integers in the range that
+ * have the maximum number of divisors.
+ */
 
 public class MostDivisorsWithArray {
 

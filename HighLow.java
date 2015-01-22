@@ -1,9 +1,16 @@
 /**
-* This program lets the user play HighLow, a simple card game
-* that is described in the output statements at the beginning of
-* the main() routine.  After the user plays several games,
-* the user's average score is reported.
-*/
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ * 
+ * This program lets the user play HighLow, a simple card game
+ * that is described in the output statements at the beginning of
+ * the main() routine.  After the user plays several games,
+ * the user's average score is reported.
+ */
+
 public class HighLow {
 
 

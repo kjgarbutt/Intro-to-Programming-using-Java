@@ -1,9 +1,15 @@
 /**
-* This program will get a line of input from the user and will print a copy
-* of the line in which the first character of each word has been changed to 
-* upper case.  The program was written to test the printCapitalized
-* subroutine.  It depends on the non-standard TextIO class.
-*/
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ * 
+ * This program will get a line of input from the user and will print a copy
+ * of the line in which the first character of each word has been changed to 
+ * upper case.  The program was written to test the printCapitalized
+ * subroutine.  It depends on the non-standard TextIO class.
+ */
 
 public class CapitalizeOneString {
   

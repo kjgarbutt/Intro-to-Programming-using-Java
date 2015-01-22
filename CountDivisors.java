@@ -1,4 +1,10 @@
 /**
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ * 
  * This program reads a positive integer from the user.
  * It counts how many divisors that number has, and
  * then it prints the result.

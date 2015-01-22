@@ -1,10 +1,16 @@
 /**
-*  How many random people do you have to select before you find
-*  THREE with the same birthday (that is, three people who were born
-*  on the same day of the same month, but not necessarily in the
-*  same year).  This program simulates the process.  (It ignores the
-*  possibility of people born on leap day.)
-*/
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ * 
+ * How many random people do you have to select before you find
+ * THREE with the same birthday (that is, three people who were born
+ * on the same day of the same month, but not necessarily in the
+ * same year).  This program simulates the process.  (It ignores the
+ * possibility of people born on leap day.)
+ */
 
 public class BirthdayProblem2 {
 

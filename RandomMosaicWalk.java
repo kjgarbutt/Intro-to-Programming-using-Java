@@ -1,10 +1,17 @@
 /**
-* This program asks the user to define the Mosaic window dimensions
-* and the refresh speed and then opens a window full of randomly
-* colored squares.  A "disturbance" moves randomly around in the
-* window, randomly changing the color of each square that it visits.
-* The program runs until the user closes the window.
-*/
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ *
+ * This program asks the user to define the Mosaic window dimensions
+ * and the refresh speed and then opens a window full of randomly
+ * colored squares.  A "disturbance" moves randomly around in the
+ * window, randomly changing the color of each square that it visits.
+ * The program runs until the user closes the window.
+ */
+
 public class RandomMosaicWalk {
 
     static int currentRow;    // Row currently containing the disturbance.

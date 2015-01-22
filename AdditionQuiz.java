@@ -1,34 +1,40 @@
 /**
-* This program administers a ten-question addition quiz to the user.  The numbers
-* for the problem are chosen at random.  The numbers and the answers are one or
-* two digits.  After asking the user the ten questions, the computer grades the
-* quiz, telling the user the correct answer for any problem they got wrong.
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ * 
+ * This program administers a ten-question addition quiz
+ * to the user.  The numbers for the problem are chosen
+ * at random.  The numbers and the answers are one or two
+ * digits.  After asking the user the ten questions, the
+ * computer grades the quiz, telling the user the correct
+ * answer for any problem they got wrong.
+ * 
+ * Pseudocode: 
+ * createQuiz()
+ * 		create firstNumbers Array
+ * 		create secondNumbers Array
+ * 			use Math.Random() to fill Arrays with random numbers
+ * administerQuiz()
+ * 		create userAnswers Array
+ * 		Cycle through questions
+ * 			Print out firstNumber + secondNumber
+ * 		Get userAnswers
+ * gradeQuiz()
+ * 		numberCorrect
+ * 			For each question:
+ * 				correctAnswer = firstNumber + secondNumber
+ * 				IF userAnswer == as correctAnswer
+ * 					Print CORRECT
+ * 					numberCorrect++
+ * 				ELSE
+ * 					Print INCORRECT
+ * grade = numberCorrect
+ * Print grade
+ */
 
-This is a test to see if the change updates in GitHub.
-
-Pseudocode: 
-createQuiz()
-	create firstNumbers Array
-	create secondNumbers Array
-		use Math.Random() to fill Arrays with random numbers
-administerQuiz()
-    create userAnswers Array
-        Cycle through questions
-			Print out firstNumber + secondNumber
-        Get userAnswers
-gradeQuiz()
-    numberCorrect
-        For each question:
-            correctAnswer = firstNumber + secondNumber
-            IF userAnswer == as correctAnswer
-				Print CORRECT
-                numberCorrect++
-			ELSE
-				Print INCORRECT
-    grade = numberCorrect
-    Print grade
-
-*/
 public class AdditionQuiz {
    
 	// Three global private static variables for the numbers and answers

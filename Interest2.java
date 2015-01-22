@@ -1,12 +1,18 @@
 /**
-* This class implements a simple program that will compute
-* the amount of interest that is earned on an investment over
-* a period of one year. The initial amount of the investment
-* and the interest rate are input by the user. The value of
-* the investment at the end of the year is output. The
-* rate must be input as a decimal, not a percentage (for
-* example, 0.05 rather than 5).
-*/
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ * 
+ * This class implements a simple program that will compute
+ * the amount of interest that is earned on an investment over
+ * a period of one year. The initial amount of the investment
+ * and the interest rate are input by the user. The value of
+ * the investment at the end of the year is output. The
+ * rate must be input as a decimal, not a percentage (for
+ * example, 0.05 rather than 5).
+ */
 
 public class Interest2 {
 	public static void main(String[] args) {

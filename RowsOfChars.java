@@ -1,5 +1,10 @@
-
 /**
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ *
  * This program will get a line of input from the user.  It will
  * then output one line for each character in the user's input.  That
  * line will contain 25 copies of the character.
@@ -13,6 +18,7 @@
  * in the class that defines it, even if the definition occurs
  * physically after the point where it is called.)
  */
+
 public class RowsOfChars {
 
     public static void main(String[] args) {

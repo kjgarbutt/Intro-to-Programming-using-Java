@@ -1,11 +1,18 @@
 /**
-*  Requires two command line arguments, which must be file names.  The
-*  the first must be the name of an existing file.  The second is the name
-*  of a file to be created by the program.  The contents of the first file
-*  are copied into the second.  WARNING:  If the second file already
-*  exists when the program is run, its previous contents will be lost!
-*  This program only works for plain text files.
-*/
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ * 
+ * Requires two command line arguments, which must be file names.  The
+ * the first must be the name of an existing file.  The second is the name
+ * of a file to be created by the program.  The contents of the first file
+ * are copied into the second.  WARNING:  If the second file already
+ * exists when the program is run, its previous contents will be lost!
+ * This program only works for plain text files.
+ */
+
 public class CopyTextFile {
 
     public static void main( String[] args ) {

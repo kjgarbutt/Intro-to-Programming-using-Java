@@ -1,9 +1,16 @@
-/*** This program opens a Mosaic window that is initially filled with black.
-* A "disturbance" moves randomly around in the window.  Each time it visits
-* a square, the green component of the color of that square is increased
-* until, after about ten visits, it has reached the maximum possible level.
-* The animation continues until the user closes the window.
-*/
+/**
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ * 
+ * This program opens a Mosaic window that is initially filled with black.
+ * A "disturbance" moves randomly around in the window.  Each time it visits
+ * a square, the green component of the color of that square is increased
+ * until, after about ten visits, it has reached the maximum possible level.
+ * The animation continues until the user closes the window.
+ */
 
 public class RandomBrighten {
   

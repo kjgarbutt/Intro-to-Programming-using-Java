@@ -1,13 +1,19 @@
 /**
-* This program fills a mosaic with random colors.  It then enters
-* a loop in which it randomly selects one of the squares in the
-* mosaic, then randomly selects one of the four neighbors of that
-* square and converts the selected neighbor to the color of the
-* originally selected square.  The effect is to gradually build
-* up larger patches of uniform color.  The animation continues 
-* until the user closes the window.  This program depends on
-* the non-standard classes Mosaic and MosaicCanvas.
-*/
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ *
+ * This program fills a mosaic with random colors.  It then enters
+ * a loop in which it randomly selects one of the squares in the
+ * mosaic, then randomly selects one of the four neighbors of that
+ * square and converts the selected neighbor to the color of the
+ * originally selected square.  The effect is to gradually build
+ * up larger patches of uniform color.  The animation continues 
+ * until the user closes the window.  This program depends on
+ * the non-standard classes Mosaic and MosaicCanvas.
+ */
 
 public class RandomConvert {
 

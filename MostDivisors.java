@@ -1,8 +1,14 @@
 /**
-* This program finds an integer between 1 and 10000 that has
-* the largest number of divisors.  It prints out the maximum
-* number of divisors and an integer that has that many divisors.
-*/
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ * 
+ * This program finds an integer between 1 and 10000 that has
+ * the largest number of divisors.  It prints out the maximum
+ * number of divisors and an integer that has that many divisors.
+ */
 
 public class MostDivisors {
 

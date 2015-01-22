@@ -1,10 +1,17 @@
 /**
-* A program that computes and displays several 3N+1 sequences.  Starting
-* values for the sequences are input by the user.  Terms in the sequence
-* are printed in columns, with five terms on each line of output.
-* After a sequence has been displayed, the number of terms in that
-* sequence is reported to the user.
-*/
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ *
+ * A program that computes and displays several 3N+1 sequences.  Starting
+ * values for the sequences are input by the user.  Terms in the sequence
+ * are printed in columns, with five terms on each line of output.
+ * After a sequence has been displayed, the number of terms in that
+ * sequence is reported to the user.
+ */
+
 public class ThreeN2 {
 	
   /**

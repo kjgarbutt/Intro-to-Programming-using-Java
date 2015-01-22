@@ -1,9 +1,16 @@
 /**
-* This class implements a simple program that will compute the amount of
-* interest that is earned on an investment over a period of 5 years. The
-* initial amount of the investment and the interest rate are input by the
-* user. The value of the investment at the end of each year is output.
-*/
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ * 
+ * This class implements a simple program that will compute the amount of
+ * interest that is earned on an investment over a period of 5 years. The
+ * initial amount of the investment and the interest rate are input by the
+ * user. The value of the investment at the end of each year is output.
+ */
+
 public class Interest3 {
 	public static void main(String[] args) {
 		double principal; // The value of the investment.

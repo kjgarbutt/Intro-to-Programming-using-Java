@@ -1,10 +1,16 @@
 /**
-*  This program evaluates simple expressions such as 2 + 2
-*  and 34.2 * 7.81, consisting of a number, an operator,
-*  and another number.  The operators +, -, *, / are allowed.
-*  The program will read and evaluate expressions until
-*  the user inputs a line that starts with the number 0.
-*/
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ *
+ * This program evaluates simple expressions such as 2 + 2
+ * and 34.2 * 7.81, consisting of a number, an operator,
+ * and another number.  The operators +, -, *, / are allowed.
+ * The program will read and evaluate expressions until
+ * the user inputs a line that starts with the number 0.
+ */
 
 public class SimpleCalculator {
 

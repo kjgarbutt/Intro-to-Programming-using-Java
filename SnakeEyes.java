@@ -1,9 +1,15 @@
-/**  
-* This program simulates rolling a pair of dice until they
-* come up snake eyes.  It reports how many rolls were needed.
-* By adding in the two die carriage returns (println) after each
-* roll, it shows the working. I didn't trust the original. 
-*/
+/**
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ * 
+ * This program simulates rolling a pair of dice until they
+ * come up snake eyes.  It reports how many rolls were needed.
+ * By adding in the two die carriage returns (println) after each
+ * roll, it shows the working. I didn't trust the original. 
+ */
 
 public class SnakeEyes {
   

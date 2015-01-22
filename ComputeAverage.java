@@ -1,14 +1,20 @@
 /**
-* This program reads a sequence of positive integers input
-* by the user, and it will print out the average of those
-* integers. The user is prompted to enter one integer at a
-* time. The user must enter a 0 to mark the end of the
-* data. (The zero is not counted as part of the data to
-* be averaged.) The program does not check whether the
-* user’s input is positive, so it will actually add up
-* both positive and negative input values.
-* CHAPTER 3. CONTROL 78
-*/
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ * 
+ * This program reads a sequence of positive integers input
+ * by the user, and it will print out the average of those
+ * integers. The user is prompted to enter one integer at a
+ * time. The user must enter a 0 to mark the end of the
+ * data. (The zero is not counted as part of the data to
+ * be averaged.) The program does not check whether the
+ * user’s input is positive, so it will actually add up
+ * both positive and negative input values.
+ * CHAPTER 3. CONTROL 78
+ */
 
 public class ComputeAverage {
 	public static void main(String[] args) {

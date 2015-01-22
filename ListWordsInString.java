@@ -1,9 +1,15 @@
 /**  
-*  This program will read one line of input typed by the user.
-*  It will print the words from the input, one word to a line.
-*  A word is defined to be a sequence of letters.  All non-letters
-*  in the input are discarded.
-*/
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ * 
+ * This program will read one line of input typed by the user.
+ * It will print the words from the input, one word to a line.
+ * A word is defined to be a sequence of letters.  All non-letters
+ * in the input are discarded.
+ */
 
 public class ListWordsInString {
 

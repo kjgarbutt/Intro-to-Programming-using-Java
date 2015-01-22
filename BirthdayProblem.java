@@ -1,7 +1,14 @@
 /**
- * Simulate choosing people at random and checking the day of the year they 
- * were born on.  If the birthday is the same as one that was seen previously, 
- * stop, and output the number of people who were checked.
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ * 
+ * Simulate choosing people at random and checking the day
+ * of the year they were born on.  If the birthday is the
+ * same as one that was seen previously, stop, and output
+ * the number of people who were checked.
  */
 public class BirthdayProblem {
 

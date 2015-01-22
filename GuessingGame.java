@@ -1,11 +1,18 @@
-/*
-Implements a simple guessing game.  The computer selects a random
-number in the range 1 to 100, inclusive, and the user tries to guess
-it.  The user gets up to six guesses.  After each wrong guess, the
-computer tells the user whether the guess was high or low.  If the
-user guesses the number within six guesses, the user wins; if the user
-makes six incorrect guesses, the user loses.  After the game ends,
-the computer asks whether the user would like to play again.
+/**
+ * The following is part of Introduction to Programming
+ * Using Java (7th Edition) by David J. Eck  (eck@hws.edu).
+ * The code is originally taken directly from the book and
+ * may or may not be altered in some way as I learn Java.
+ * Kurtis Garbutt (kurtis.garbutt@gmail.com)
+ * Implements a simple guessing game.  The computer selects a random
+ * number in the range 1 to 100, inclusive, and the user tries to guess
+ * it.  The user gets up to six guesses.  After each wrong guess, the
+ * computer tells the user whether the guess was high or low.  If the
+ * user guesses the number within six guesses, the user wins; if the user
+ * makes six incorrect guesses, the user loses.  After the game ends,
+ * the computer asks whether the user would like to play again.
+ * 
+ * Pseudocode:
 
 Ask user to play a game (boolean do while loop)
 	Do execute playGame
