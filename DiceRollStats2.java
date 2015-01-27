@@ -21,7 +21,7 @@ public class DiceRollStats2 {
 
   static final int NUMBER_OF_EXPERIMENTS = 10000;
   
-  private static PairOfDice dice = new PairOfDice();
+  private static PairOfDice2 dice = new PairOfDice2();
             // A single pair of dice, which will be used for all
             // the experiments.
 
